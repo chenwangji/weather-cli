@@ -1,0 +1,26 @@
+{
+  "name": "weather-query-util",
+  "version": "1.0.0",
+  "description": "A CLI that helps you to forcast weather",
+  "main": "index.js",
+  "scripts": {},
+  "engines": {
+    "node": ">=8"
+  },
+  "preferGlobal": true,
+  "author": "wangji",
+  "license": "MIT",
+  "homepage": "https://github.com/chenwangji/weather-cli.git#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenwangji/weather-cli.git"
+  },
+  "bin": {
+    "weather": "bin/weather"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "minimist": "^1.2.0",
+    "ora": "^3.0.0"
+  }
+}
